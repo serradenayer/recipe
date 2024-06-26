@@ -169,7 +169,7 @@ ol {
 }
 
 
-.sd {
+.sideDishes {
     display: grid;
     margin: 5px 5px 0px;
     grid-template-columns: 1.2fr 3fr;
@@ -177,16 +177,16 @@ ol {
     column-gap: 10px;
 }
 
-.sd h3{
+.sideDishes h3{
     grid-column: 2 / 3;
     margin: 0;
 }
 
-.sd p {
+.sideDishes p {
    margin: 0;
 }
 
-.sd img {
+.sideDishes img {
     display: flex;
     max-width: 85%;
     height: auto;
@@ -280,7 +280,6 @@ input:checked + label span svg {
     transform: rotate(720deg);
 }
 
-
 nav h2, nav h3 {
     display: none;
 }
@@ -373,7 +372,7 @@ button svg {
     stroke: #F2F2F2;
 }
 
-
+//**footer**//
 footer {
     display: grid;
 }
@@ -426,7 +425,7 @@ footer h2, footer h3 {
     margin: 0;
 }
 
-
+//*hover*//
 .nav a:hover {
     background-color:#EB5428;
     color:#ffffff;
@@ -442,7 +441,7 @@ footer h2, footer h3 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.sd:hover {
+.sideDishes:hover {
     background-color:rgba(242, 242, 242, 0.5);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
@@ -451,7 +450,7 @@ footer h2, footer h3 {
 #home a svg:hover {
     transform:scale(1.1, 1.1);
 }
-
+//**responsive**//
 @media screen and (min-width:768px){
 
     body{
@@ -599,7 +598,7 @@ footer h2, footer h3 {
         padding-right: 5px; 
     }
 
-    .sd {
+    .sideDishes {
         align-items: start;
     }
 
@@ -717,30 +716,30 @@ footer h2, footer h3 {
         padding-bottom: 15px;
     }
 
-    .sd {
+    .sideDishes {
         grid-template-columns: 245px;
         grid-template-rows: 240px 35px 50px 30px;
         column-gap: 0;
     }
 
-    .sd img, .sd h3, .sd p, .rating {
+    .sideDishes img, .sideDishes h3, .sideDishes p, .rating {
         grid-column: 1 / 3;
     }
 
-    .sd img {
+    .sideDishes img {
         max-width: 90%;
         padding: 5px;
     }
 
-    .sd h3 {
+    .sideDishes h3 {
         grid-row: 2 / 3;
     }
 
-    .sd p {
+    .sideDishes p {
         grid-row: 3 / 4;
     }
 
-    .sd h3, .sd p, .rating {
+    .sideDishes h3, .sideDishes p, .rating {
         padding-left: 15px;
     }
 
