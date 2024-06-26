@@ -372,7 +372,7 @@ button svg {
     stroke: #F2F2F2;
 }
 
-//**footer**//
+/**footer**/
 footer {
     display: grid;
 }
@@ -425,7 +425,7 @@ footer h2, footer h3 {
     margin: 0;
 }
 
-//*hover*//
+/*hover*/
 .nav a:hover {
     background-color:#EB5428;
     color:#ffffff;
@@ -450,7 +450,7 @@ footer h2, footer h3 {
 #home a svg:hover {
     transform:scale(1.1, 1.1);
 }
-//**responsive**//
+/**responsive**/
 @media screen and (min-width:768px){
 
     body{
